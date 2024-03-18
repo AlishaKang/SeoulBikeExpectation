@@ -1,0 +1,244 @@
+<!DOCTYPE HTML>
+<!--
+	Strongly Typed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Left Sidebar - Strongly Typed by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="left-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header">
+					<div class="container">
+
+						<!-- Logo -->
+							<h1 id="logo"><a href="index.html">Bike Rental Forecast</a></h1>
+							<p>대여량 예측을 위해 무슨 모델링을 선택했는지, 그 결과가 어떤지 확인해보겠습니다.</p>
+
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li><a class="icon solid fa-home" href="index.html"><span>Introduction</span></a></li>
+									<li><a class="icon solid fa-cog" href="left-sidebar.html"><span>Model(XGBoost)</span></a></li>
+									<li><a class="icon solid fa-retweet" href="right-sidebar.html"><span>Data Visualization</span></a></li>
+									<li><a class="icon solid fa-sitemap" href="no-sidebar.html"><span>Realization</span></a></li>
+								</ul>
+							</nav>
+
+					</div>
+				</section>
+
+			<!-- Main -->
+				<section id="main">
+					<div class="container">
+						<div class="row">
+
+							<!-- Sidebar -->
+								<div id="sidebar" class="col-4 col-12-medium">
+
+									<!-- Excerpts -->
+										<section>
+											<ul class="divided">
+												<li>
+
+													<!-- Excerpt -->
+														<article class="box excerpt">
+															<header>
+																<span class="date">Feb 16</span>
+																<h3><a href="#">주제 교체</a></h3>
+															</header>
+															<p>팀원의 개인적인 사정으로 혼자서 프로젝트를 진행하게 되었습니다. 따라서 급하게 주제를 
+															'따릉이 대여소 신규 건설을 위한 위치 추천'에서 '따릉이 대여량 예측'으로 바꾸었습니다. 이에 따라서 3주 동안의 결과물을 활용하기는 어려워졌지만 과감한 결정이 필요했습니다.</p>
+														</article>
+
+												</li>
+												<li>
+
+													<!-- Excerpt -->
+														<article class="box excerpt">
+															<header>
+																<span class="date">Feb 26</span>
+																<h3><a href="#">모델 구현</a></h3>
+																<a href="#" class="image left"><img src="images/모델별점수.jpg" alt="" /></a>
+															</header>
+															<p>어떤 알고리즘을 사용해 모델링을 할지 선택하기 위해서 간단하게 모델링별로 구현을 해본 결과, RandomForest(0.96)와 XGBoost(0.95)가 가장 낮은 RMSE를 보여주어 좋은 성능을 보였습니다. 두 모델을 구현해보고 XGBoost의 성능을 더욱 향상시켜 모델링을
+															완성했습니다.</p>
+														</article>
+
+												</li>
+												<li>
+
+													<!-- Excerpt -->
+														<article class="box excerpt">
+															<header>
+																<span class="date">March 02</span>
+																<h3><a href="#">피드백 반영</a></h3>
+															</header>
+															<p>멘토님들에게서 로그변환을 제거하고 스케일링을 더 해보라는 조언을 받았습니다. 
+															바로 당일에 이를 적용해보고 결과를 확인한 결과, 더욱 성능이 올라갔습니다.</p>
+														</article>
+
+												</li>
+											</ul>
+										</section>
+
+									<!-- Highlights -->
+										<section>
+											<ul class="divided">
+												<li>
+
+													<!-- Highlight -->
+														<article class="box highlight">
+															<header>
+																<span class="date">March 04</span>
+																<h3><a href="#">대여량 예측</a></h3>
+															</header>
+															<p>이번 프로젝트에서 만든 XGBoost 알고리즘을 적용한 모델을 통해서 대여량을 예측하기 위해 21년도 2월 독립변수들이 들어있는
+															csv파일을 넣고 결과를 확인했습니다. 해당 예측 결과는 Introduction 페이지의 지도에서 확인하실 수 있습니다.</p>
+														</article>
+
+												</li>
+												<li>
+
+													<!-- Highlight -->
+														<article class="box highlight">
+															<header>
+																<span class="date">March 11</span>
+																<h3><a href="#">웹 구현</a></h3>
+															</header>
+															<p>지도에 마커를 통해서 대여소 이름과 예측된 대여량을 나타냈습니다. 각 예측된 대여량은 대여소 이름 뒤의 소괄호 안에서 확인할 수 있습니다. 그외에도 웹에 시각화 그래프와 이 서비스의 기대효과, 후기 등을 작성했습니다.</p>
+														</article>
+
+												</li>
+											</ul>
+										</section>
+
+								</div>
+
+							<!-- Content -->
+								<div id="content" class="col-8 col-12-medium imp-medium">
+
+									<!-- Post -->
+										<article class="box post">
+											<header>
+												<h2><strong>independent variable</strong><br />
+												</h2>
+											</header>
+											<h2>- RandomForest 모델</h1>
+											<span class="image featured"><img src="images/최종df.jpg" alt="" /></span>
+											<span class="image featured"><img src="images/plot.jpg" alt="" /></span>
+										</article>
+
+										<article class="box post">
+											<header>
+												<h2><strong>The best Model Algorithm</strong><br />
+												XGBoost Regression</h2>
+											</header>
+											<h2>- RandomForest 모델</h1>
+
+											<span class="image featured"><img src="images/RandomForestResult.jpg" alt="" /></span>			
+											<h3>왜 RandomForest 알고리즘을 사용하지 않았나요? </h3>
+											<p>RandomForest 알고리즘이란 여러 개의 결정트리(Decision Tree)를 활용한 배깅 방식의
+												 대표적인 알고리즘입니다. 이 알고리즘은 결정크리의 쉽고 직관적인 장점을 가지고 있고 다양한 
+												 분야에서 좋은 성능을 보입니다. 더불어 앙상블 알고리즘 중 비교적 빠른 수행속도를 가지고 있습니다.
+												 하지만 단점으로는 하이퍼 파라미터가 많아 튜닝을 위한 많은 시간이 소요된다는 점이 있습니다.</p>
+											<p>해당 알고리즘을 사용해 결과를 확인해본 결과는 위의 시각화된 그래프에서 확인할 수 있습니다. 
+												실제값과 예측값의 차이가 너무 크고 중간 중간에 튀는 값도 있음을 확인할 수 있습니다. 아래의 XGBoost 
+												알고리즘을 적용한 결과와 비교해보면 XGBoost가 더 나은 성능을 가짐을 알 수 있습니다.
+											</p>
+											
+											<h2>- XGBoost 모델</h2>
+											<span class="image featured"><img src="images/하이퍼파라미터적용후비교.jpg" alt="" /></span>	
+											<h3>XGBoost 모델의 성능은 어떤가요? </h3>
+											<p>다른 알고리즘을 적용한 모델보다 XGBoost알고리즘을 적용한 것이 더 RMSE점수가 낮아 이를 선택했습니다. 
+											우선, XGBoost알고리즘이 어떤 특징을 가지고 있는지 설명하겠습니다. 
+											Gradient Boosting 알고리즘은 병렬 학습을 지원 하지 않아 순차적으로 데이터를 학습하는 데 시간이 많이 걸린다면
+											 이  문제를 해결한 알고리즘이 병렬 학습이 지원되도록 구현된 XGBoost 알고리즘입니다. 모델을 적용한 결과는 위의 시각화와 같으며 하이퍼 파라미터를 탐색해 적용까지 마친 모델입니다. </p>
+
+											<span class="image featured"><img src="images/파라미터적용후.jpg" alt="" /></span>
+											<h3>어느 변수가 중요한지를 보여주는 Feature Importance가 정말로 유효한 지표인가요?</h3>
+											<p>모델이 학습한 데이터셋을 시각화해서 이를 확인해보겠습니다.</p>
+
+											<span class="image featured"><img src="images/연도별대여량.jpg" alt="" /></span>
+											<p>Feature Importance를 보면 month와 year가 중요한 지표라고 보여주고 있습니다. 
+												모델이 학습할 때 사용한 데이터를 month별로 대여량을 시각화 했을 때 
+												이는 유의미한 지표임을 다시 확인할 수 있습니다. year지표도 마찬가지입니다. 2018년도에 대여량 총합계는 약 911만(9,115,963),
+												2019년도에는 약 1779만(17,791,752), 2020년도에는 약 2250만(22,501,066)으로 이 또한 유의미한 지표임을 알 수 있습니다.
+											</p>
+
+											<h2>- 대여량 예측 결과</h2>
+											<span class="image featured"><img src="images/예측결과.jpg" alt="" /></span>
+											<p>만든 XGBoost모델을 통해서 예측된 대여량을 월별로 묶어서 시각화해봤습니다. 
+												대여소별 예측 대여량을 확인하고 싶다면 Introduction 페이지의 지도를 통해서 
+											확인가능합니다.</p>	
+										</article>
+
+								</div>
+
+						</div>
+					</div>
+				</section>
+
+			<!-- Footer -->
+			<section id="footer">
+				<div class="container">
+					<header>
+						<h2>Questions or comments? <strong>Get in touch:</strong></h2>
+					</header>
+					<div class="row" style="display: ruby-text;">
+						<div class="col-6 col-12-medium">
+							<section>
+								<div class="row">
+									<div class="col-6 col-12-small" style="margin-right: 0px;">
+										<ul class="icons">
+											<img src="images/전화여자3.png" style="width:90%; margin-left:0px;" />
+															
+										</ul>
+									</div>
+									<div class="col-6 col-12-small" >
+										<ul class="icons">
+											<li class="icon brands fa-github">
+												<a href="https://github.com/AlishaKang">https://github.com/AlishaKang
+												</a>
+											</li>
+											<li class="icon solid fa-envelope">
+												<a href="https://mail.google.com">oneoneone920920920@gmail.com</a>
+											</li>
+											<li class="icon brands fa-instagram">
+												<a href="https://www.instagram.com/alisha_dy2">https://www.instagram.com/alisha_dy2</a>
+											</li>
+										</ul>
+									</div>
+									
+								</div>
+							</section>
+						</div>
+						
+					</div>
+				</div>
+				<div id="copyright" class="container">
+					<ul class="links">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</section>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
