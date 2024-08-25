@@ -2,36 +2,6 @@ Strongly Typed by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
-
-This is Strongly Typed, a new site template with a minimal, semi-retro
-look (inspired by old instruction manuals) and, as you might guess from its
-name, a strong emphasis on type. It's fully responsive, built on HTML5/CSS3,
-and includes styling for all basic page elements. Demo images* are courtesy of
-regularjane, an incredibly talented photographer friend of mine. Be sure to
-check out more of her work over at deviantART:
-
-http://regularjane.deviantart.com/
-
-(* = Not included! Only meant for use with my own on-site demo, so please do NOT download
-and/or use any of Jane's work without her explicit permission!)
-
-As usual, feedback, bug reports, and comments are not only welcome, but strongly
-encouraged :)
-
-AJ
-aj@lkn.io | @ajlkn
-
-PS: Not sure how to get that contact form working? Give formspree.io a try (it's awesome).
-
-
-Credits:
-
-	Demo Images:
-		regularjane (regularjane.deviantart.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+서울시에는 '따릉이'라는 공유자전거가 마련되어져 있습니다. 
+이 프로젝트를 통해 만든 웹사이트는 공유자전거 '따릉이'를 어디에 얼마나 배치해야 더욱 효율적일지를 알 수 있습니다.
+주로 인구수가 높거나 상업적으로 많이 개발된 지역에 따릉이 이용량이 많음을 확인할 수 있습니다. 
